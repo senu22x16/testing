@@ -12,10 +12,16 @@
     "puppeteer-core": "^10.1.0",
     "chrome-aws-lambda": "^10.1.0"
   },
+  "devDependencies": {},
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
-  "keywords": ["puppeteer", "scraper", "vercel"],
+  "keywords": [
+    "puppeteer",
+    "scraper",
+    "vercel",
+    "web scraping"
+  ],
   "author": "",
   "license": "ISC"
 }
