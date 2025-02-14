@@ -2,26 +2,20 @@
   "name": "puppeteer-vercel",
   "version": "1.0.0",
   "description": "Puppeteer scraper on Vercel",
-  "main": "api/scrape.js",
+  "main": "api/scrape.js", // Make sure this points to your function handler
   "scripts": {
     "dev": "vercel dev",
     "start": "vercel dev",
     "deploy": "vercel --prod"
   },
- "dependencies": {
+  "dependencies": {
     "puppeteer-core": "^10.1.0",
     "chrome-aws-lambda": "^10.1.0"
   },
-  "devDependencies": {},
   "engines": {
-    "node": "22.x"
+    "node": "16.x"
   },
-  "keywords": [
-    "puppeteer",
-    "scraper",
-    "vercel",
-    "web scraping"
-  ],
+  "keywords": ["puppeteer", "scraper", "vercel"],
   "author": "",
   "license": "ISC"
 }
