@@ -2,7 +2,7 @@
   "name": "puppeteer-vercel",
   "version": "1.0.0",
   "description": "Puppeteer scraper on Vercel",
-  "main": "api/scrape.js",
+  "main": "scrape.js",
   "scripts": {
     "dev": "vercel dev",
     "start": "vercel dev",
