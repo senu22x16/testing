@@ -8,10 +8,10 @@
     "start": "vercel dev",
     "deploy": "vercel --prod"
   },
-  "dependencies": {
-    "chrome-aws-lambda": "^10.0.0",
-    "puppeteer-core": "^19.0.0"
-  },
+ "dependencies": {
+    "puppeteer-core": "^10.1.0",
+    "chrome-aws-lambda": "^10.1.0"
+  }
   "devDependencies": {},
   "engines": {
     "node": "22.x"
