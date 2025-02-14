@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer-vercel",
+  "version": "1.0.0",
+  "description": "Puppeteer scraper on Vercel",
+  "main": "api/scrape.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.0.0",
+    "puppeteer-core": "^19.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [
+    "puppeteer",
+    "scraper",
+    "vercel",
+    "web scraping"
+  ],
+  "author": "",
+  "license": "ISC"
+}
